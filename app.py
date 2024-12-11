@@ -5,7 +5,7 @@ import numpy as np
 app = Flask(__name__)
 
 # Load the pre-trained model
-model = pickle.load(open('loan_repayment_model.pkl', 'rb'))
+model = pickle.load(open('logistic_regression_model', 'rb'))
 
 # Route to render the HTML page
 @app.route('/')
